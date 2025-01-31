@@ -530,7 +530,6 @@ class Gamestate:
 
             else:
                 moves = self.legal_moves(coords, white_turn)
-                print(moves)
                 if d_coords in moves:
                     # Update moved status if rook or king is moved
                     if self.rookClicked:
